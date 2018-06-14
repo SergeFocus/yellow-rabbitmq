@@ -19,7 +19,7 @@ passw = os.getenv('PASSAMQP')
 
 
 # полный адрес сервера
-rabbit_url = "amqp://{0}:{1}@antelope.rmq.cloudamqp.com/mqnlxzth".format(user, passw)
+rabbit_url = "amqp://{0}:{1}@antelope.rmq.cloudamqp.com/{0}".format(user, passw)
 
 # соединие сервера - живет на время передачи событий
 conn = Connection(rabbit_url)
