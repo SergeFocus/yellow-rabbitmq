@@ -1,7 +1,5 @@
 # Yellow RabbitMQ
 
-[![Gitter](https://badges.gitter.im/silverbulleters/yellow-rabbitmq.svg)](https://gitter.im/silverbulleters/yellow-rabbitmq?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
 публичное описание и примеры кода работы с RabbitMQ и 1С
 
 ### Поддержка протоколов и способов
